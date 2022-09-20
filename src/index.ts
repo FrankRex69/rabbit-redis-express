@@ -6,7 +6,6 @@ import { rabbitMqLong, rabbitMqShort } from './utils_rabbit.js';
 const app = express()
 const port = 3000
 
-
 app.get('/form', (req: any, res: any) => {
     res.sendFile(process.cwd() + '/public/index.html')
 })
