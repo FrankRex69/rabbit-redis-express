@@ -2,3 +2,5 @@ build/
 .env
 /node_modules
 .build
+/build
+./build
