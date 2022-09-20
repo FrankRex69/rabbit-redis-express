@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "compileOnSave": true,
+  "include": ["./src/**/*"]
+}
