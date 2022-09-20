@@ -62,8 +62,3 @@ export const startShort = async (shortUrl) => {
         throw error;
     }
 };
-// const longUrl: string = "http://www.prova31.com"
-// const account: string = "fran4@gmail.com"
-// const shortUrlCheck = "http://v7qbw9"
-// console.log(await startLong(longUrl, account))
-// console.log(await startShort(shortUrlCheck))
