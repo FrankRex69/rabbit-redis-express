@@ -30,5 +30,5 @@ app.post('/', urlencodedParser, async (req: any, res: any) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}/form`)
+  console.log(`http://localhost:${port}/form`)
 })
