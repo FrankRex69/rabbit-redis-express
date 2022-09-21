@@ -1,4 +1,4 @@
-import { redisExported, shortUrl } from "./utils.js"
+import { redisExported, shortUrl } from "./utils"
 
 let clientRedis = new redisExported()
 
@@ -11,7 +11,7 @@ export const startLong = async(longUrl: string, account: string): Promise<object
     // Connection Redis
     await clientRedis.connectRedis()
         
-    const checkRedis = await clientRedis.hgetallRedis(keyRedis)  
+    const checkRedis = await clientRedis.hgetallRedis(keyRedis)
     
     // check longUrl in Redis
     if(!checkRedis.longUrl){
